@@ -1,6 +1,6 @@
-import { InputContainer, ErrorMessage } from "./styles";
-import { IInputProps } from "././types";
 import { Controller } from "react-hook-form";
+import { IInputProps } from "././types";
+import { ErrorMessage, InputContainer } from "./styles";
 
 const Input = ({ control, name, errorMessage, ...rest }: IInputProps) => {
   return (
